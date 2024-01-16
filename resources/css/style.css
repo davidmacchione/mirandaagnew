@@ -38,42 +38,10 @@ nav a {
 
 }
 
-/* Banner */
-.banner img {
-	width: 100%;
-}
-
-/* About */
-.about {
-	display: flex;
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.aboutText {
-	width: 60%;
-	height: auto;
-}
-
-.aboutImage {
-	width: 40%;
-}
-
-/* Videos */
-.videos {
-	display: flex;
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 /* Footer */
 footer {
 	background: grey;
 	width: 100%;
-	position: absolute;
-	bottom: 0;
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -99,13 +67,16 @@ header.desktop {
 	height: 5rem;
 }
 
-.desktop nav {
+#title {
+	text-align: center;
 	margin-left: auto;
+	margin-right: auto;
 }
 
+.desktop nav {
+	position: absolute;
+	right: 2rem;
 
-.about img {
-	width: 100%;
 }
 
 }

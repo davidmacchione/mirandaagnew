@@ -1,0 +1,50 @@
+/* Banner */
+.banner img {
+	width: 100%;
+}
+
+/* About */
+.about {
+	display: flex;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aboutText {
+	width: 60%;
+	height: auto;
+}
+
+.aboutImage {
+	width: 40%;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+}
+
+/* Videos */
+.videos {
+	display: flex;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Desktop*/
+@media only screen and (min-device-width:641px) {
+
+.about img {
+	width: 100%;
+}
+
+}
+
+/* Mobile */
+@media only screen and (max-device-width: 640px) {
+
+
+
+}
