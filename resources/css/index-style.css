@@ -7,8 +7,10 @@
 .about {
 	display: flex;
 	width: 70%;
+	background: lightgray;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 2rem;
 }
 
 .aboutText {
@@ -20,17 +22,22 @@
 	width: 40%;
 }
 
+/* Videos */
+.videos {
+	width: 70%;
+	background: lightgray;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.videoContainer {
+	display: flex;
+}
+
+/* Footer */
 footer {
 	position: absolute;
 	bottom: 0;
-}
-
-/* Videos */
-.videos {
-	display: flex;
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 /*Desktop*/
