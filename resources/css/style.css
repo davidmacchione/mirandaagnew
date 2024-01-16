@@ -5,7 +5,7 @@
 
 html {
 	font-family: ;
-	font-size: ;
+	font-size: 16px;
 	background: ;
 	color: ;
 	scroll-behavior: smooth;
@@ -30,6 +30,7 @@ nav ul {
 
 nav li {
 	list-style-type: none;
+	margin: 0.5rem;
 }
 
 nav a {
@@ -51,19 +52,28 @@ nav a {
 }
 
 .aboutText {
-	width: 50%;
+	width: 60%;
+	height: auto;
 }
 
 .aboutImage {
-	width: 50%;
+	width: 40%;
+}
+
+/* Videos */
+.videos {
+	display: flex;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Footer */
 footer {
 	background: grey;
 	width: 100%;
-	position: relative;
-	top: 5rem;
+	position: absolute;
+	bottom: 0;
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -82,11 +92,17 @@ header.mobile {
 }
 
 header.desktop {
+	display: flex;
 	height: 3rem;
 	flex-direction: row;
 	position: fixed;
 	height: 5rem;
 }
+
+.desktop nav {
+	margin-left: auto;
+}
+
 
 .about img {
 	width: 100%;
