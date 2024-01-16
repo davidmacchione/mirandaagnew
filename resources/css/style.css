@@ -11,6 +11,11 @@ html {
 	scroll-behavior: smooth;
 }
 
+a:hover {
+	color: seashell;
+	transition: color 0.5s ;
+}
+
 /* Header */
 header {
 	display: flex;
