@@ -6,6 +6,7 @@
 /* About */
 .about {
 	display: flex;
+	flex-direction: row;
 	width: 70%;
 	background: lightgray;
 	margin-left: auto;
@@ -44,7 +45,8 @@ footer {
 @media only screen and (min-device-width:641px) {
 
 .about img {
-	width: 100%;
+	width: 90%;
+	margin: 1rem;
 }
 
 }
