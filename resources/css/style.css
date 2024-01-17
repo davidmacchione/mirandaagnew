@@ -11,6 +11,15 @@ html {
 	scroll-behavior: smooth;
 }
 
+main h2 {
+	font-size: 3rem;
+	
+}
+
+main h3 {
+
+}
+
 a:hover {
 	color: seashell;
 	transition: color 0.5s ;
@@ -45,7 +54,7 @@ nav a {
 
 /* Footer */
 footer {
-	font-family: Helvetica;
+	font-family: Tahoma;
 	background: grey;
 	width: 100%;
 	display: flex;
@@ -58,7 +67,7 @@ footer {
 
 main {
 	position: relative;
-	top: 6rem;
+	top: 5rem;
 }
 
 header.mobile {

@@ -1,3 +1,23 @@
+main {
+	top: 6rem;
+}
+
+main h2 {
+	font-size: 2rem;
+}
+
+main a {
+	text-decoration: none;
+	text-align: center;
+	background: grey;
+	padding: 0.3rem 1rem;
+}
+
+main a:hover {
+	background: purple;
+	transition: background 0.5s ease-in;
+}
+
 /* Banner */
 .banner img {
 	width: 100%;
@@ -17,15 +37,25 @@
 .aboutText {
 	width: 60%;
 	height: auto;
+	display: flex;
+	flex-direction: column;
 }
 
 .aboutImage {
 	width: 40%;
 }
 
+.about span {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* Videos */
 .videos {
+	display: flex;
+	flex-direction: column;
 	width: 70%;
+	height: auto;
 	background: lightgray;
 	margin-left: auto;
 	margin-right: auto;
@@ -33,12 +63,51 @@
 
 .videoContainer {
 	display: flex;
+	flex-direction: row;
+	width: ;
+	margin-left: auto;
+	margin-right: auto;
+	background: grey;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.videoPlayer {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+
+.videoText {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	justify-content: center;
+}
+
+.videos iframe {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.videoContainer h3 {
+	height: 3rem;
+}
+
+.videoContainer p {
+	margin: 1rem;
+}
+
+.videoContainer span {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Footer */
 footer {
-	position: absolute;
-	bottom: 0;
+	position: relative;
+	top: 7rem;
 }
 
 /*Desktop*/
