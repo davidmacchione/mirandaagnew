@@ -29,32 +29,68 @@
 			<h1><a href="./index.html">Miranda Ingram Agnew</a></h1>
 			<h2>trumpet player | composer - improviser | educator</h2>
 		</div>
-		<nav>
+		<nav class="menu">
 			<ul>
-				<li><a href="./bio.html">Bio</a></li>
-				<li><a href="./music.html">Music</a></li>
-				<li><a href="./shows.html">Shows</a></li>
-				<li><a href="./epk.html">EPK</a></li>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href=""><label for="home">Music<i class="fa-solid fa-chevron-down"></i></label></a></li>
+				<input type="checkbox" id="home">
+			 	<div class="inner3">
+					<nav class="homeDropDown">					
+						<ul>
+							<li><a href="">Watch</a></li>
+							<li><a href="">Listen</a></li>
+							<li><a href="./shows.html">Shows</a></li>
+						</ul>
+					</nav>
+				</div>
 				<li><a href="./gallery.html">Gallery</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<header class="mobile">
-		
+		<h1>Miranda<br>Ingram<br>Agnew</h1>
+		<input class="side-menu" type="checkbox" id="side-menu">
+		<label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+		<nav class="mobile">
+			<ul class="mobile-menu">
+				<li><a href="./index.html">Home</a></li>
+				<li><a href=""><label for="homeMobile">Music<i class="fa-solid fa-chevron-down"></i></label></a></li>
+					<input type="checkbox" id="homeMobile">
+				 	<div class="inner3">
+						<nav class="homeDropDown">
+							<ul>
+								<li><a href="">Watch</a></li>
+							<li><a href="">Listen</a></li>
+							<li><a href="./shows.html">Shows</a></li>
+							</ul>
+						</nav>
+					</div>
+				<li><a href="">Press</a></li>
+				<li><a href="./gallery.html">Gallery</a></li>
+			</ul>
+		</nav>	
 	</header>
 
-	<main>
-		<!--<section class="banner">
-			<img src="/Users/david/Documents/GitHub/mirandaagnew/resources/images/pick 6 copy.JPG">
-		</section>-->
+		<section class="banner">
+			<img src="/Users/david/Documents/GitHub/mirandaagnew/resources/images/DSC01991 copy.JPG">
+		</section>
 
+	<main>
+		
 		<section class="about">
 			<div class="aboutText">
-				<h2>About</h2>
-				<p>Miranda Agnew is a trumpet player,  composer-improviser and recent graduate from the dual degree program between Harvard and New England Conservatory of Music.  She is deeply invested in building supportive and bold spaces for music-making, and lasting connections to others through creative practice. </p>
-				<p>She has performed at venues such as Jamboree in Barcelona, Scullers in Boston, and Dizzy’s Club NYC.</p>
-				<span><a href="./bio.html">Read More</a></span>
+				<input type="checkbox" id="first">
+				<h3>Bio</h3>
+				<p>Miranda Agnew is a trumpet player,  composer-improviser and recent graduate from the dual degree program between Harvard and New England Conservatory of Music.</p>  
+				<p>She is deeply invested in building supportive and bold spaces for music-making, and lasting connections to others through creative practice.</p>
+				<p>Miranda has been mentored by musicians such as Dominique Eade, Claire Chase, and Jason Palmer, attended the Banff International Workshop in Jazz and Creative Music, and performed at venues such as Jamboree in Barcelona, Scullers in Boston, and Dizzy’s Club NYC.</p>
+				 <div class="inner">
+					<section class="firstDiv">
+						<p>Her compositions emphasize collectivity and fluidity, while centering the personalities of her collaborators, and she has performed and improvised with musicians including Francisco Mela, Kris Davis and Yvonne Rogers. She is also involved in education, having organized multiple workshop series for highschool students and curated a guide for high school educators that centers women in the story of Jazz and Creative Music.</p>
+					</section>
+				</div>
+				<label for="first" class="first"><span>Read More</span><i class="fa-solid fa-chevron-down"></i></label>
 			</div>
 			<div class="aboutImage">
 				<img src="/Users/david/Documents/GitHub/mirandaagnew/resources/images/pick 10 copy.JPG">
@@ -62,7 +98,6 @@
 		</section>
 
 		<section class="videos">
-			<h2>Videos</h2>
 			<div class="videoContainer">
 					<div class="videoPlayer">
 						<h3>Brittany Karlson Quartet live @ Arts at the Armory Somerville</h3>

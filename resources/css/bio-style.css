@@ -5,6 +5,14 @@
 	margin-right: auto;
 }
 
+.bio h3 {
+	font-size: 3rem;
+}
+
+.bio p {
+	margin-top: 1rem;
+}
+
 footer {
 	position: relative;
 	top: 5rem;
@@ -14,14 +22,15 @@ footer {
 @media only screen and (min-device-width:641px) {
 
 .bioText {
-	width: 50%;
+	width: 55%;
 	padding: 1rem;
+	margin-top: 1rem;
 }
 
 .bioImages {
 	display: flex;
 	flex-direction: column;
-	width: 50%;
+	width: 45%;
 	padding: 1rem;
 }
 
