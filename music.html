@@ -25,26 +25,58 @@
 
 <body>
 	<header class="desktop">
+		<div class="socialLinks">
+			<ul>
+				<li><a href="https://www.instagram.com/miagnew.trumpet/"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+				<li><a href="https://mirandaiagnew.bandcamp.com/"><i class="fa-brands fa-bandcamp fa-lg"></i></i></a></li>
+				<li><a href="https://www.youtube.com/@mirandaagnew8210"><i class="fa-brands fa-youtube fa-lg"></i></a></li>
+			</ul>
+		</div>
 		<div id="title">
 			<h1><a href="./index.html">Miranda Ingram Agnew</a></h1>
 			<h2>trumpet player | composer - improviser | educator</h2>
 		</div>
-		<nav>
+		<nav class="menu">
 			<ul>
-				<li><a href="./index.html">Home</a></li>
-				<li><a href="./bio.html">Bio</a></li>
-				<li><a href="./music.html">Music</a></li>
-				<li><a href="./shows.html">Shows</a></li>
-				<li><a href="./epk.html">EPK</a></li>
+				<li><a href=""><label for="home">Music<i class="fa-solid fa-chevron-down"></i></label></a></li>
+				<input type="checkbox" id="home">
+			 	<div class="inner3">
+					<nav class="homeDropDown">					
+						<ul>
+							<li><a href="./music.html#watch">Watch</a></li>
+							<li><a href="./music.html#listen">Listen</a></li>
+							<li><a href="./shows.html">Shows</a></li>
+						</ul>
+					</nav>
+				</div>
 				<li><a href="./gallery.html">Gallery</a></li>
+				<li><a href="./blog.html">Blog</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<header class="mobile">
-		
+		<h1>Miranda<br>Ingram<br>Agnew</h1>
+		<input class="side-menu" type="checkbox" id="side-menu">
+		<label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+		<nav class="mobile">
+			<ul class="mobile-menu">
+				<li><a href=""><label for="homeMobile">Music<i class="fa-solid fa-chevron-down"></i></label></a></li>
+					<input type="checkbox" id="homeMobile">
+				 	<div class="inner3">
+						<nav class="homeDropDown">
+							<ul>
+							<li><a href="./music.html">Watch</a></li>
+							<li><a href="music.html#listen">Listen</a></li>
+							<li><a href="shows.html">Shows</a></li>
+							</ul>
+						</nav>
+					</div>
+				<li><a href="./gallery.html">Gallery</a></li>
+				<li><a href="./blog.html">Blog</a></li>
+			</ul>
+		</nav>	
 	</header>
-
 	<main>
 		<h2>Music</h2>
 

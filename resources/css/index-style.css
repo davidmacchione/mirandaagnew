@@ -215,6 +215,14 @@ header {
 	height: 8rem !important;
 }
 
+#title h1 {
+	font-size: 3rem !important;
+}
+
+#title h2 {
+	font-size: 1.2rem !important;
+}
+
 .about img {
 	width: 90%;
 	margin: 1rem;
