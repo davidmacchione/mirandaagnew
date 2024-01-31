@@ -25,15 +25,21 @@
 
 <body>
 	<header class="desktop">
+		<div class="socialLinks">
+			<ul>
+				<li><a href=""><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+				<li><a href=""><i class="fa-brands fa-bandcamp fa-xl"></i></i></a></li>
+				<li><a href=""><i class="fa-brands fa-youtube fa-xl"></i></a></li>
+			</ul>
+		</div>
 		<div id="title">
 			<h1><a href="./index.html">Miranda Ingram Agnew</a></h1>
 			<h2>trumpet player | composer - improviser | educator</h2>
 		</div>
 		<nav class="menu">
 			<ul>
-				<li><a href="./index.html">Home</a></li>
 				<li><a href=""><label for="home">Music<i class="fa-solid fa-chevron-down"></i></label></a></li>
-				<input type="checkbox" id="home">
+				<input type="checkbox" id="home" checked>
 			 	<div class="inner3">
 					<nav class="homeDropDown">					
 						<ul>
@@ -44,6 +50,7 @@
 					</nav>
 				</div>
 				<li><a href="./gallery.html">Gallery</a></li>
+				<li><a href="./gallery.html">Blog</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -54,7 +61,6 @@
 		<label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
 		<nav class="mobile">
 			<ul class="mobile-menu">
-				<li><a href="./index.html">Home</a></li>
 				<li><a href=""><label for="homeMobile">Music<i class="fa-solid fa-chevron-down"></i></label></a></li>
 					<input type="checkbox" id="homeMobile">
 				 	<div class="inner3">
@@ -66,19 +72,20 @@
 							</ul>
 						</nav>
 					</div>
-				<li><a href="">Press</a></li>
 				<li><a href="./gallery.html">Gallery</a></li>
+				<li><a href="./gallery.html">Blog</a></li>
 			</ul>
 		</nav>	
 	</header>
 
 		<section class="banner">
 			<img src="/Users/david/Documents/GitHub/mirandaagnew/resources/images/DSC01991 copy.JPG">
+			<div><a href="#about">Enter Website</a></div>
 		</section>
 
 	<main>
 		
-		<section class="about">
+		<section class="about" id="about">
 			<div class="aboutText">
 				<input type="checkbox" id="first">
 				<h3>Bio</h3>
