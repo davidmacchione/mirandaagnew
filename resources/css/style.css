@@ -166,6 +166,7 @@ header.mobile {
 
 header.desktop {
 	display: flex;
+	height: 5rem;
 	flex-direction: row;
 	position: fixed;
 	z-index: 30;

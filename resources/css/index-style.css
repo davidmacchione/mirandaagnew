@@ -212,7 +212,7 @@ footer {
 @media only screen and (min-device-width:641px) {
 
 header {
-	height: 8rem;
+	height: 8rem !important;
 }
 
 .about img {
