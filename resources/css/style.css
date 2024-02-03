@@ -71,7 +71,10 @@ nav ul {
 
 nav li {
 	list-style-type: none;
+}
 
+#active {
+	color: lightgray;
 }
 
 nav a {
@@ -255,8 +258,28 @@ header.mobile {
   position: static;
 }
 
+.socialLinks {
+	display: inline-flex;
+	position: absolute;
+	top: 1.1rem;
+	left: 0.2rem;
+	width: 100%;
+}
+
+.socialLinks ul {
+	display: inline-flex;
+}
+
+.socialLinks li {
+	list-style-type: none;
+	text-decoration: none;
+	margin: 0.8rem;
+}
+
 header.mobile h1 {
-  font-size: 1.7rem;
+	position: relative;
+	top: 0.6rem;
+  font-size: 1.9rem;
   margin-left: 1.2rem;
 }
 
@@ -311,7 +334,7 @@ nav.mobile li {
   cursor: pointer;
   margin-left: auto;
   margin-right: 0.7rem;
-  padding: 40px 20px;
+  padding: 20px 5px;
   z-index: 20;
 }
 
