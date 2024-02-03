@@ -421,7 +421,6 @@ main {
 
 .videoText {
 	display: flex;
-	margin-bottom: 1rem;
 }
 
 .videoText p {
@@ -433,10 +432,8 @@ main {
 }
 
 .videos iframe {
-	margin-top: 2rem;
 	width: 100%;
 	height: 250px;
-
 }
 
 footer {
