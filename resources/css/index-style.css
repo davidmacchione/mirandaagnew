@@ -71,7 +71,37 @@ main a:hover {
 }
 
 .about p {
-	margin: 1rem;
+	margin: 0.5rem;
+}
+
+#wjcm {
+	all: revert;
+	text-decoration: none;
+}
+
+#wjcm:hover {
+	color: seashell;
+	transition: all 0.5s;
+}
+
+#fullBio {
+	display: flex;
+ 	height: 2rem;
+ 	width: 7rem;
+ 	margin: auto;
+ 	margin-bottom: 1rem;
+ 	font-size: 0.8rem;
+  	background: gray;
+  	padding: 5px; 
+  	align-items: center;
+  	justify-content: center;
+  	color: white;
+  	text-align: center;
+}
+
+#fullBio:hover {
+	color: black;
+	transition: all .5s;
 }
 
 /* Label styling */
@@ -110,6 +140,8 @@ input[type=checkbox] {
 
 .firstDiv {
 	overflow: hidden;
+	display: flex;
+	flex-direction: row;
 }
 
 [id="first"]:checked ~ .inner {
@@ -137,6 +169,7 @@ input[type=checkbox] {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1rem;
+	width: 100%;
 }
 
 .videoPlayer {
@@ -156,8 +189,9 @@ input[type=checkbox] {
 	margin-bottom: 1rem;
 }
 
-.videoContainer h3 {
-	height: 3rem;
+.videos h3 {
+	margin: 1rem;
+	font-size: 1.5rem;
 }
 
 .videoContainer p {
@@ -198,8 +232,13 @@ header {
 }
 
 .about {
-	flex-direction: row;
+	flex-direction: column;
 	width: 70%;
+}
+
+.visibleBio {
+	display: flex;
+	flex-direction: row;
 }
 
 .aboutText {
@@ -211,14 +250,39 @@ header {
 
 .aboutImage {
 	width: 40%;
+	display: flex;
+	flex-direction: column;
 }
 
 .about img {
 	width: 90%;
 	margin: 1rem;
 	position: relative;
-	top: 4rem;
+	top: 2rem;
 }
+.firstDiv {
+	display: flex;
+	flex-direction: row;
+}
+
+.firstDivText {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+
+.firstDivImage {
+	width: 40%;
+}
+
+.firstDivImage img {
+	width: 90%;
+	position: relative;
+	margin: 1rem;
+	top: 1rem ;
+}
+
+/*Videos desktop*/
 
 .videos {
 	flex-direction: column;
@@ -226,11 +290,11 @@ header {
 }
 
 .videoContainer {
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .videoPlayer {
-	width: 60%;
+	width: 100%;
 }
 
 .videoText {
@@ -243,20 +307,24 @@ header {
 	margin-right: 2rem;
 }
 
-
-.videos iframe {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 1rem;
+.videoContainer {
+	width: 98%; 
+	height: 100%; 
+	margin: 1rem auto; 
+	background: #CCC
 }
 
-.videoContainer h3 {
-	height: 3rem;
+.videoPlayer {
+	position:relative; 
+	padding-top: 56%;
 }
 
-.videoContainer p {
-	margin: 1rem;
+.videoPlayer iframe {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%; 
+	height:100%;
 }
 
 .videoContainer span {
@@ -296,8 +364,12 @@ main {
 
 .about {
 	display: flex;
-	flex-direction: column-reverse;
+	flex-direction: column;
 	width: 90%;
+}
+
+.about label {
+	margin-top: 1rem;
 }
 
 .about h3 {
@@ -315,6 +387,21 @@ main {
 	margin-top: 1rem;
 }
 
+.firstDiv {
+	flex-direction: column;
+}
+
+.firstDivImage {
+	display: flex;
+	width: 100%;
+}
+
+.firstDivImage img {
+	width: 90%;
+	margin-left: auto;
+}
+
+/*videso mobile*/
 .videos {
 	flex-direction: column;
 	width: 90%;
