@@ -41,7 +41,8 @@ main a:hover {
 }
 
 .banner span a:hover {
-   color: black;
+	background-color: rgba(255, 255, 255, 0.8);
+   color: rgb(209, 139, 113);
    transition: all 1s ease-out 20ms;
 }
 
@@ -59,19 +60,24 @@ main a:hover {
   scroll-margin-top: 12rem;
 }
 
+.aboutText, .firstDivText {
+	padding: 1rem;
+}
+
 .about span {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	color: rgb(209, 139, 113);
 }
 
 .about h3 {
-	margin-left: 1rem;
 	font-size: 2.5rem;
+	color: #342546;
 }
 
 .about p {
-	margin: 0.5rem;
+	margin-bottom: 0.8rem;
 }
 
 #wjcm {
@@ -120,6 +126,7 @@ label[for="first"] {
 
 label[for="first"] i {
 	margin: 0.5rem;
+	color: rgb(209, 139, 113);
 }
 
 input[type=checkbox] ~ label:hover {
@@ -258,7 +265,7 @@ header {
 	width: 90%;
 	margin: 1rem;
 	position: relative;
-	top: 2rem;
+	top: 4rem;
 }
 .firstDiv {
 	display: flex;
@@ -279,7 +286,7 @@ header {
 	width: 90%;
 	position: relative;
 	margin: 1rem;
-	top: 1rem ;
+	top: -2rem ;
 }
 
 /*Videos desktop*/
@@ -373,7 +380,6 @@ main {
 }
 
 .about h3 {
-	margin-top: 1rem;
 	font-size: 3rem;
 }
 

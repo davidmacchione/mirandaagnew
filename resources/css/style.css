@@ -106,8 +106,12 @@ nav.homeDropDown {
 
 li i {
 	margin-left: 0.3rem;
+	color: rgb(209, 139, 113);
 }
 
+label {
+		cursor: pointer;
+}
 
 nav.homeDropDown li {
 	list-style-type: none;
@@ -115,7 +119,7 @@ nav.homeDropDown li {
 }
 
 nav.homeDropDown a {
-	color: white;
+	color: #794451;
 }
 
 nav.homeDropDown a:hover {
@@ -308,6 +312,10 @@ nav.homeDropDown ul {
 	align-items: center;
 	width: 17rem;
 	margin: 1rem;
+}
+
+nav .homeDropDown li a {
+	color: white;
 }
 
 /* Responsive mobile nav*/
