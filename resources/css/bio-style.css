@@ -1,8 +1,12 @@
 .bio {
 	display: flex;
-	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.bioText {
+	display: flex;
+	flex-direction: column;
 }
 
 .bio h3 {
@@ -13,17 +17,33 @@
 	margin-top: 1rem;
 }
 
-footer {
-	position: relative;
-	top: 5rem;
+.bio span {
+	width: 7rem;
+	padding: 5px 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #A193B1;;
+}
+
+.bio span a {
+	text-decoration: none;
 }
 
 /*Desktop*/
 @media only screen and (min-device-width:641px) {
 
+.bio {
+	width: 80%;
+}
+
 .bioText {
 	width: 55%;
 	padding: 1rem;
+	margin-top: 1rem;
+}
+
+.bio span {
 	margin-top: 1rem;
 }
 
@@ -41,11 +61,47 @@ footer {
 	padding: 0.5rem;
 }
 
+footer {
+	position: relative;
+	top: 5rem;
+}
+
 }
 
 /* Mobile */
 @media only screen and (max-device-width: 640px) {
 
+.bio {
+	flex-direction: column;
+}
 
+.bioText {
+	width: 90%;
+	padding: 1rem;
+	margin-top: 1rem;
+}
+
+.bio span {
+	margin-top: 2rem;
+}
+
+.bioImages {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: 1rem;
+}
+
+.bio img {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.5rem;
+}
+
+footer {
+	position: relative;
+	top: 2rem;
+}
 
 }
