@@ -301,6 +301,7 @@ header {
 .videos {
 	flex-direction: column;
 	width: 70%;
+	max-width: 850px;
 }
 
 .videoContainer {
