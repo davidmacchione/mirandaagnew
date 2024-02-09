@@ -59,7 +59,7 @@ main {
 	width: 30%;
 	max-width: 450px;
 	min-width: 300px;
-	height: 47%;
+	height: 50vh;
 }
 
 footer {
@@ -81,7 +81,7 @@ footer {
 }
 
 .caption {
-	width: 90vw;
+	width: 30vw;
 	min-width: 300px;
 	height: 60vw;
 }
