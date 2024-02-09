@@ -2,11 +2,39 @@
 	padding: 1rem;
 	margin-bottom: 1rem;
 	background-color: rgb(209, 139, 113);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 h3 {
 	font-size: 2rem;
 	color: seashell;
+}
+
+.musicHeading h4 {
+	opacity: 0;
+	font-size: 1.8rem;
+	margin-left: 6rem;
+	position: absolute;
+	animation-play-state: paused;
+}
+
+.musicHeading:hover h4 {
+	opacity: 1;
+	transform: translateX(85px);
+	transition: opacity 1.5s ease-in, transform 1.2s;
+	animation-play-state: running;
+}
+
+.musicHeading a {
+	text-decoration: none;
+	color: purple;
+}
+
+.musicHeading a:hover {
+	color: white;
+	transition: 500ms;
 }
 
 /*Watch*/
@@ -32,6 +60,11 @@ h3 {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	border-radius: 3px;
+}
+
+.videoContainer:hover {
+	background-color: #59344f;
+	transition: all 600ms ease-in;
 }
 
 .videos iframe {
@@ -198,9 +231,15 @@ input[type=checkbox] {
 	display: flex;
 	flex-direction: column;
 	padding: 1rem;
-	align-content: space-evenly;
+	margin-top: 1rem;
+		margin-bottom: 1rem;
 	border-radius: 3px;
 	background-color: #342546;
+}
+
+.streamingPlayer:hover {
+	background-color: #59344f;
+	transition: all 600ms ease-in;
 }
 
 .streamingPlayer h4 {
@@ -240,9 +279,8 @@ h3 {
 }
 
 .streamingPlayer {
-	min-width: 350px;
-	max-width: 400px; 
-	width: 350px;
+	min-width: 350px; 
+	width: 45%;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -250,16 +288,13 @@ h3 {
 
 .streamingPlayer img {
 	width: 350px;
+	margin: auto;
+	margin-bottom: .6rem;
 }
 
-#fluorescence img {
-	margin-top: 20px;
-	margin-bottom: 50px;
-}
-
-
-.streamingPlayers h4 {
-	font-size: 1rem;
+.streamingPlayer h4 {
+	font-size: 2rem;
+	margin-left: .5rem;
 }
 
 footer {
@@ -278,6 +313,10 @@ main {
 
 h3 {
 		margin-left: 1rem;
+}
+
+.musicHeading h4 {
+	display: none;
 }
 
 .videoContainer {
