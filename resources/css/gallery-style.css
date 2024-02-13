@@ -3,10 +3,28 @@ main {
 }
 
 .photoGallery {
-	display: flex;
+	/*display: flex;
 	margin: auto;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-around;*/
+	display: flex;
+	/*line-height: 0;       
+    -webkit-column-count: 3;    
+    -webkit-column-gap: 5px;    
+    -moz-column-count: 3;
+    -moz-column-gap: 5px;
+     column-count: 3;    
+     column-gap: 5px; */
+     justify-content: space-evenly;
+     width: 100%;
+     flex-wrap: wrap;
+}
+
+.galleryPic {
+	display: flex;
+	margin: 0.5rem;
+	position: relative;
+
 }
 
 .caption {
@@ -16,14 +34,17 @@ main {
 	position: absolute;
 	justify-content: center;
 	align-items: center;
-	background:rgba(0, 0, 0, 0.6);
+	background:rgba(0, 0, 0, 0.4);
 	color: seashell;
 	opacity: 0; 
-           transition:all 300ms ease-in;
+           transition:all 500ms ease-in;
            -webkit-transition:all 300ms ease-in-out;
            -moz-transition:all 300ms ease-in-out;
            -o-transition:all 300ms ease-in-out;
            -ms-transition:all 300ms ease-in-out;
+    width: 100%;
+	height: 100%;
+	min-width: 250px;
 }
 
 .caption:hover {
@@ -42,24 +63,31 @@ main {
 }
 
 /*Desktop*/
-@media only screen and (min-device-width:641px) {
+@media only screen and (min-device-width:798px) {
 
-.galleryPic {
-	display: flex;
-	flex-direction: column;
-	width: 30%;
-	height: auto;
-	max-width: 450px;
-	min-width: 350px;
-	margin: 0.5rem;
-	overflow: hidden;
+main {
+	top: 5.5rem;
 }
 
-.caption {
-	width: 30%;
-	max-width: 450px;
-	min-width: 300px;
-	height: 50vh;
+.galleryPic {
+	max-width: ;
+	min-width: 250px;
+	width: 30% ;
+}
+
+.landscape {
+	width: 30% ;
+	min-width: 250px;
+}
+
+.portrait {
+	width: 20%;
+	min-width: 200px;
+}
+
+.galleryPic img {
+	object-fit: contain;
+	overflow: hidden;
 }
 
 footer {
@@ -69,11 +97,32 @@ footer {
 
 }
 
-/* Mobile */
-@media only screen and (max-device-width: 640px) {
+/* Tablet */
+@media only screen and (max-device-width: 797px) and (min-device-width: 426px) {
+
 
 .galleryPic {
 	display: flex;
+	width: 45vw;
+	min-width: 300px;
+}
+
+.portrait {
+	width: 10%;
+}
+
+.galleryPic img {
+	object-fit: contain;
+	overflow: hidden;
+
+}
+
+}
+
+/* Mobile */
+@media only screen and (max-device-width: 425px) {
+
+.galleryPic {
 	flex-direction: column;
 	width: 90vw;
 	min-width: 300px;
@@ -81,9 +130,7 @@ footer {
 }
 
 .caption {
-	width: 30vw;
-	min-width: 300px;
-	height: 60vw;
+	
 }
 
 footer {
