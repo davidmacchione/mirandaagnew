@@ -51,8 +51,8 @@ main {
             opacity:1;
 }
 
-.caption p {
-	
+.caption a {
+	color: white;
 }
 
 .caption span {
@@ -60,6 +60,16 @@ main {
 	font-size: 0.7rem;
 	left: 0.5rem;
 	bottom: 0.5rem;
+}
+
+.caption i {
+	position: absolute;
+	right: 1rem;
+	bottom: 1.5rem;
+}
+
+.caption i:hover {
+	color: lightgrey;
 }
 
 /*Desktop*/
