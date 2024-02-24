@@ -53,7 +53,7 @@ main {
 
 .caption p {
 	position: relative;
-	top: 42%;
+	top: 72%;
 	margin: 1rem;
 	text-align: center;
 }
@@ -65,8 +65,8 @@ main {
 .caption span {
 	position: absolute;
 	font-size: 0.7rem;
-	left: 0.5rem;
-	bottom: 0.5rem;
+	left: 1rem;
+	bottom: 1rem;
 }
 
 .caption .fa-download {
@@ -102,24 +102,28 @@ input:checked ~ .photoGalleryLarge {
 }
 
 input:checked ~ .caption {
-	width: 100vw;
+	width: 99.5vw;
 	height: 91vh;
 	opacity: 1;
 	z-index: 10;
 	background: black;
 	position: fixed;
 	right: 0vw;
-	top: 10vh;
+	top: 9vh;
 }
 
 input:checked ~ .caption img {
 	opacity: 1;
-	width: 90%;
+	width: 55%;
 	margin: 1rem;
 }
 
 input:checked ~ .caption p {
 	display: none;
+}
+
+input:checked ~ .caption span {
+	font-size: 1.2rem;
 }
 
 /*Desktop*/
