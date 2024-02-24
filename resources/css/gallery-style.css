@@ -221,11 +221,11 @@ input:checked ~ .caption img {
 }
 
 input:checked ~ .caption .fa-download {
-	bottom: 2.5rem;
+	bottom: 4.5rem;
 }
 
 input:checked ~ .caption span {
-	bottom: 2.5rem;
+	bottom: 3.5rem;
 	overflow-y: hidden;
 }
 
