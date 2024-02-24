@@ -220,6 +220,15 @@ input:checked ~ .caption img {
 	margin: 1rem;
 }
 
+input:checked ~ .caption .fa-download {
+	bottom: 2.5rem;
+}
+
+input:checked ~ .caption span {
+	bottom: 2.5rem;
+	overflow-y: hidden;
+}
+
 footer {
 	position: relative;
 	top: 2rem;
