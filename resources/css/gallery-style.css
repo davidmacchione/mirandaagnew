@@ -194,6 +194,10 @@ input:checked ~ .caption img {
 /* Mobile */
 @media only screen and (max-device-width: 425px) {
 
+main {
+	top: 7rem;
+}
+
 .galleryPic {
 	flex-direction: column;
 	min-width: 200px;
@@ -221,11 +225,11 @@ input:checked ~ .caption img {
 }
 
 input:checked ~ .caption .fa-download {
-	bottom: 4.5rem;
+	bottom: 5.5rem;
 }
 
 input:checked ~ .caption span {
-	bottom: 3.5rem;
+	bottom: 4.5rem;
 	overflow-y: hidden;
 }
 
