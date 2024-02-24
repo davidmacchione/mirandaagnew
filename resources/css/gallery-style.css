@@ -142,7 +142,7 @@ main {
 }
 
 input:checked ~ .caption {
-	width: 99.5vw;
+	width: 100vw;
 	height: 91vh;
 	top: 9vh;
 }

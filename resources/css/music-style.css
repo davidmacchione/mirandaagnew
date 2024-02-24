@@ -8,7 +8,7 @@
 }
 
 .musicHeading:hover {
-	background-color: grey;
+	background-color: rgb(214, 151, 129, 1.0);
 }
 
 h3 {
@@ -19,7 +19,7 @@ h3 {
 .musicHeading h4 {
 	opacity: 0;
 	font-size: 1.8rem;
-	margin-left: 6rem;
+	margin-left: 7rem;
 	position: absolute;
 	animation-play-state: paused;
 }
@@ -70,11 +70,11 @@ h3 {
 	transition: grid-template-rows 0.5s ease-out;
 }
 
-[id="recordings"]:checked ~ .innerListen {
+[id="listen"]:checked ~ .innerListen {
  	grid-template-rows: 1fr;
  }
 
-[id="recordings"]:checked ~ label i {
+[id="listen"]:checked ~ label i {
  	transform: rotate(-180deg);
  	transition: transform 0.5s;
 }
