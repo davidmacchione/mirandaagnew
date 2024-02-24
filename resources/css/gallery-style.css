@@ -53,7 +53,6 @@ main {
 
 .caption p {
 	position: relative;
-	top: 72%;
 	margin: 1rem;
 	text-align: center;
 }
@@ -102,20 +101,15 @@ input:checked ~ .photoGalleryLarge {
 }
 
 input:checked ~ .caption {
-	width: 99.5vw;
-	height: 91vh;
 	opacity: 1;
-	z-index: 10;
+	z-index: 30;
 	background: black;
 	position: fixed;
 	right: 0vw;
-	top: 9vh;
 }
 
 input:checked ~ .caption img {
 	opacity: 1;
-	width: 55%;
-	margin: 1rem;
 }
 
 input:checked ~ .caption p {
@@ -137,20 +131,25 @@ main {
 	min-width: 200px;
 	height: 320px;
 }
-/*
-.landscape {
-	width: 30% ;
-	min-width: 250px;
-}
 
-.portrait {
-	width: 20%;
-	min-width: 200px;
-}
-*/
 .galleryPic img {
 	object-fit: contain;
 	overflow: hidden;
+}
+
+.caption p {
+	top: 72%;
+}
+
+input:checked ~ .caption {
+	width: 99.5vw;
+	height: 91vh;
+	top: 9vh;
+}
+
+input:checked ~ .caption img {
+	width: 55%;
+	margin: 1rem;
 }
 
 footer {
@@ -177,7 +176,17 @@ footer {
 .galleryPic img {
 	object-fit: contain;
 	overflow: hidden;
+}
 
+input:checked ~ .caption {
+	width: 100vw;
+	height: 100vh;
+	top: 0vh;
+}
+
+input:checked ~ .caption img {
+	width: 86vw;
+	margin: 1rem;
 }
 
 }
@@ -187,13 +196,28 @@ footer {
 
 .galleryPic {
 	flex-direction: column;
-	width: 90vw;
-	min-width: 300px;
-	margin: 0.5rem;
+	min-width: 200px;
+	width: 320px;
 }
 
-.caption {
-	
+.galleryPic img {
+	object-fit: contain;
+	overflow: hidden;
+}
+
+.caption p {
+	top: 60%;
+}
+
+input:checked ~ .caption {
+	width: 100vw;
+	height: 100vh;
+	top: 0vh;
+}
+
+input:checked ~ .caption img {
+	width: 92vw;
+	margin: 1rem;
 }
 
 footer {
