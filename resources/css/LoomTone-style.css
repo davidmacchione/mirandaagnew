@@ -1,0 +1,208 @@
+html {
+	background-image: url("/Users/david/Documents/GitHub/mirandaagnew/resources/images/LoomToneEpk/leavesBackground.JPG");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position-y:;
+	background-repeat: no-repeat;
+	background-color: black;
+	color: seashell;
+	font-family: sans-serif;
+	size: ;
+	background-attachment: ;
+	background-size: ;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 0rem;
+}
+
+.bannerImg {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	position: fixed;
+}
+
+.bannerImg img {
+	width: 70%;
+}
+
+.pullQuote {
+	display: flex;
+	margin: auto;
+	flex-direction: row;
+	width: 80%;
+	background-color: black;
+	margin-top: 15rem;
+}
+
+/* descrption */
+.description {
+	display: flex;
+	background-color: black;
+}
+
+.descriptionText {
+	display: flex;
+}
+
+.descriptionImage {
+	display: flex;
+}
+
+.featuredVideo {
+	display: flex;
+}
+
+/* bios */
+.bios {
+	display: flex;
+	background-color: black;
+}
+
+.bios .miranda {
+	display: flex;
+}
+
+.bios .katie {
+	display: flex;
+}
+
+footer {
+	display: flex;
+	margin: auto;
+	margin-top: 3rem;
+}
+
+.copyright {
+	margin: auto;
+}
+
+/*Desktop*/
+@media only screen and (min-device-width:641px) {
+
+.bannerImg {
+
+}
+
+.pullQuote {
+	margin-bottom: 8rem;
+}
+
+.pullQuote h3 {
+	margin: auto;
+}
+/* descrption */
+.description {
+	flex-direction: row;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 8rem;
+}
+
+.descriptionText {
+	flex-direction: column;
+	width: 50%;
+
+}
+
+.descriptionImage {
+	flex-direction: column;
+	width: 50%;
+	margin: auto;
+}
+
+.descriptionImage img {
+	width: 80%;
+	margin: auto;
+}
+
+.featuredVideo {
+	width: 70%;
+	margin: auto;
+}
+
+.featuredVideo iframe {
+	width: 60%;
+}
+
+/* bios */
+.bios {
+	flex-direction: row;
+	width: 100%;
+}
+
+.bios .miranda {
+	flex-direction: column;
+	width: 50%;
+	margin: auto;
+}
+
+.bios .katie {
+	flex-direction: column;
+	width: 50%;
+	margin: auto;
+}
+
+}
+
+/* Mobile */
+@media only screen and (max-device-width: 640px) {
+
+.bannerImg {
+	width: 100%;
+}
+
+.pullQuote {
+	width: 85%;
+	margin: auto;
+}
+
+.pullQuote h3 {
+	margin: auto;
+}
+/* descrption */
+.description {
+	flex-direction: column;
+}
+
+.descriptionText {
+
+}
+
+.descriptionImage {
+	flex-direction: column;
+}
+
+.descriptionImage img {
+
+}
+
+.descriptionImage .caption {
+
+}
+
+.featuredVideo {
+	width: 90%;
+}
+
+.featuredVideo iframe {
+	width: 100%;
+}
+
+/* bios */
+.bios {
+	flex-direction: column;
+}
+
+.bios .miranda {
+	flex-direction: row;
+}
+
+.bios .katie {
+	flex-direction: row;
+}
+}

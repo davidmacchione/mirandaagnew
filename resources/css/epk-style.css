@@ -1,18 +1,134 @@
-footer {
-	position: absolute;
-	bottom: 0;
+html {
+	background-image: url("");
+	size: ;
+	background-attachment: ;
+	background-size: ;
+}
+
+.bannerImg {
+	background-image: url("/Users/david/Desktop/miranda bkcm/best/DSC02290 copy.JPG");
+	display: flex;
+	width: 100%;
+}
+
+.epk {
+	display: flex;
+	flex-direction: column;
+}
+
+#epkTitle {
+	display: flex;
+}
+
+.content {
+	display: flex;
+}
+
+.text {
+	display: flex;
+}
+
+.images {
+	display: flex;
+}
+
+.promoVid {
+	display: flex;
 }
 
 /*Desktop*/
 @media only screen and (min-device-width:641px) {
 
+.bannerImg {
 
+	object-fit: cover;
+
+}
+
+.bannerImg img {
+	width: 100%;
+	height: 6rem;
+	overflow: hidden;
+	object-fit: ;
+}
+
+.epk {
+	width: 90%;
+	margin: 1rem auto;
+}
+
+#epkTitle {
+	width: 80%;
+	display: flex;
+	margin: 1rem auto;
+}
+
+#epkTitle h4 {
+	text-align: center;
+}
+
+.content {
+	flex-direction: row;
+}
+
+.text {
+	width: 40%;
+	margin: 1rem auto;
+}
+
+.images {
+	width: 40%;
+	margin: 1rem auto;
+}
+
+.images img {
+	width: 400px;
+}
+
+.promoVid {
+	
+}
+
+footer {
+	position: relative;
+	top: 10rem;
+}
 
 }
 
 /* Mobile */
 @media only screen and (max-device-width: 640px) {
 
+.bannerImg {
 
+}
+
+.bannerImg img {
+	width: 100%;
+}
+
+.epk {
+	width: 100%;
+}
+
+#epkTitle {
+
+}
+
+.content {
+	flex-direction: column;
+}
+
+.text {
+
+}
+
+.images {
+
+}
+
+.promoVid {
+	
+}
 
 }
