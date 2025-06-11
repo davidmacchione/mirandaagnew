@@ -19,6 +19,10 @@ main h3 {
 
 }
 
+a {
+	text-decoration: none;
+}
+
 a:hover {
 	color: seashell;
 	transition: color 0.5s ;
