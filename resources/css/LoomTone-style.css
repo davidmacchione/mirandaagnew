@@ -6,7 +6,6 @@ html {
 	background-color: rgba(255, 255, 255, .04);
 	color: seashell;
 	font-family: sans-serif;
-	size: ;
 	background-blend-mode: lighten;
 	background-attachment: ;
 	background-size: ;
@@ -17,6 +16,16 @@ main {
 	flex-direction: column;
 
 	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+	color: lightgrey;
+}
+
+a:hover {
+	color: darkgray;
+	transition: color 0.5s ;
 }
 
 .bannerImg {
@@ -33,6 +42,14 @@ main {
 .bannerImg img {
 	width: 100%;
 }
+
+.caption, .description, .bios h5 {
+	font-family: Helvetica;
+	font-weight: 400;
+}
+
+
+
 
 .pullQuote {
 	display: flex;
@@ -77,8 +94,9 @@ main {
 	margin: auto;
 }
 
-.bios h5 b {
+.bios b {
 	color: lightgrey;
+	font-weight: 800 ;
 }
 
 .bios .left {
@@ -119,7 +137,7 @@ footer {
 
 .pullQuote img {
 	width: 90%;
-	margin: 1rem;
+	margin: .5rem;
 	margin-bottom: ;
 	margin-top: 11vh;
 	max-width: 600px;
@@ -149,15 +167,16 @@ footer {
 	flex-direction: row;
 	width: 90%;
 	margin: auto;
-	padding: 2.5rem;
+	padding: 2rem;
 	margin-bottom: 8rem;
+	justify-content: space-evenly;
 }
 
 .descriptionText {
 	flex-direction: column;
-	width: 50%;
-	max-width: 500px;
-	margin: auto 2rem auto 1rem;
+	width: auto;
+	max-width: 1000px;
+	margin: auto 1rem auto 1rem;
 
 }
 
@@ -175,14 +194,15 @@ footer {
 
 .descriptionImage {
 	flex-direction: column;
-	width: 50%;
-	margin: auto;
-	max-width: 500px;
+	width: 40%;
+	margin: auto 1rem auto 1rem;
+	min-width: 400px;
+	max-width: 650px;
 }
 
 .descriptionImage img {
-	width: 80%;
-	margin: 1rem auto 1rem auto;
+	width: 100%;
+	margin: 1rem auto .5rem auto;
 
 }
 
@@ -218,11 +238,13 @@ footer {
 	flex-direction: row;
 	width: 80%;
 	margin: auto;
+	justify-content: space-evenly;
+
 }
 
 .bios h5 {
 	margin: .5rem;
-	font-size: .8rem;
+	font-size: 1.1rem;
 }
 
 .bios .left {
@@ -230,7 +252,7 @@ footer {
 	width: 60%;
 	max-width: 1000px;
 	height: auto;
-	margin: auto;
+	margin: auto 0;
 	justify-items: flex-end;
 }
 
@@ -245,7 +267,7 @@ footer {
 }
 
 .biosPic img {
-	width: 70%;
+	width: 95%;
 	margin: 1rem;
 }
 
@@ -269,7 +291,7 @@ html {
 	flex-direction: column;
 	margin: auto;
 	margin-bottom: 4rem;
-	margin-top: -5rem;
+	margin-top: -3rem;
 }
 
 .quoteImg {
@@ -280,7 +302,7 @@ html {
 .quoteImg img {
 	width: 90%;
 	margin: auto;
-	padding: 1rem;
+	padding: 1rem 1rem .2rem 1rem;
 }
 
 .pullQuote h3 {
@@ -293,6 +315,7 @@ html {
 .caption  {
 	text-align: center;
 	margin: .4rem;
+	font-size: .62rem;
 }
 
 /* descrption */
@@ -354,6 +377,7 @@ html {
 	flex-direction: column;
 	margin: auto;
 	width: 80%;
+	font-size: 1.1rem;
 }
 
 .biosPic img {
