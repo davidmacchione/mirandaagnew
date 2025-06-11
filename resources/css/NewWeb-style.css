@@ -1,0 +1,397 @@
+html {
+	background-image: url("");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: rgba();
+	color: ;
+	font-family: sans-serif;
+	background-blend-mode: lighten;
+	background-attachment: ;
+	background-size: ;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+	color: lightgrey;
+}
+
+a:hover {
+	color: darkgray;
+	transition: color 0.5s ;
+}
+
+.bannerImg {
+	display: flex;
+	flex-direction: row;
+}
+
+.bannerImg h1 {
+	position: relative;
+	margin-right: 4rem;
+	margin-left: auto;
+	font-size: 2.5rem;
+	/* make foreground */
+} 
+
+.bannerImg img {
+	width: 100%;
+}
+
+.caption, .description, .bios h5 {
+	font-family: Helvetica;
+	font-weight: 400;
+}
+
+
+
+
+.pullQuote {
+	display: flex;
+	margin: auto;
+	flex-direction: row-reverse;
+	width: 80%;
+	background-color: ;
+	margin-bottom: 8rem;
+}
+
+.quoteImg {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;	
+}
+
+/* descrption */
+.description {
+	display: flex;
+	background-color: rgba(105, 105, 105, .4);
+	border-radius: 4px;
+}
+
+.descriptionText {
+	display: flex;
+}
+
+.descriptionImage {
+	display: flex;
+}
+
+.featuredVideo {
+	display: flex;
+	
+}
+
+/* bios */
+.bios {
+	display: flex;
+	margin: auto;
+}
+
+.bios b {
+	color: lightgrey;
+	font-weight: 800;
+}
+
+.bios .left {
+	display: flex;
+	
+}
+
+.biosPic {
+	display: flex;
+}
+
+.bios .right {
+	display: flex;
+	
+}
+
+footer {
+	display: flex;
+	margin: auto;
+	margin-top: 3rem;
+}
+
+.copyright {
+	margin: auto;
+}
+
+/*Desktop*/
+@media only screen and (min-device-width:641px) {
+
+.bannerImg {
+		
+}
+
+.pullQuote {
+	height: 100vh;
+	margin-top: 2rem;
+	flex-direction: row;
+}
+
+.quoteImg {
+
+}
+
+.pullQuote img {
+	width: 90%;
+	margin: .5rem;
+	margin-bottom: ;
+	margin-top: 11vh;
+	max-width: 600px;
+}
+
+.pullQuote h4 {
+	font-size: .8rem;
+}
+
+.pullQuote h5 {
+	font-size: .5rem;
+	margin: .65rem;
+}
+
+.pullQuote h3 {
+	margin: auto;
+	padding: 2rem;
+	text-align: center;
+	font-size: 1.6rem;
+	font-style: italic;
+}
+
+
+
+/* descrption */
+.description {
+	flex-direction: row;
+	width: 90%;
+	margin: auto;
+	padding: 2rem;
+	margin-bottom: 8rem;
+	justify-content: space-evenly;
+
+}
+
+.descriptionText {
+	flex-direction: column;
+	width: auto;
+	max-width: 1000px;
+	margin: auto 1rem auto 1rem;
+
+}
+
+.descriptionText h3, h4 {
+	margin-bottom: .2rem;
+}
+
+.descriptionText h3 {
+	font-size: 1.2rem ;
+
+}
+
+.descriptionText h4 {
+	font-size: 1.1rem;
+		font-family: Helvetica;
+	font-weight: 400;
+}
+
+.descriptionImage {
+	flex-direction: column;
+	width: 40%;
+	margin: auto 1rem auto 1rem;
+	min-width: 400px;
+	max-width: 650px;
+}
+
+.descriptionImage img {
+	width: 100%;
+	margin: 1rem auto .5rem auto;
+
+}
+
+.descriptionImage .caption {
+	margin: auto;
+	font-size: .65rem;
+	margin-bottom: 1rem;
+}
+
+.featuredVideo {
+	width: 70%;
+	margin: auto;
+	margin-bottom: 8rem;
+}
+
+.videoWrapper {
+   position: relative;
+   width: 100%;
+   height: 0;
+   padding-bottom: 56.25%;
+}
+.videoWrapper iframe {
+   position:absolute;
+   max-width: ;
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+}
+
+/* bios */
+.bios {
+	flex-direction: row;
+	width: 80%;
+	margin: auto;
+	justify-content: space-evenly;
+
+}
+
+.bios h5 {
+	margin: .5rem;
+	font-size: 1.1rem;
+}
+
+.bios .left {
+	flex-direction: column;
+	width: 60%;
+	max-width: 1000px;
+	height: auto;
+	margin: auto 0;
+	justify-items: flex-end;
+}
+
+.bios .right {
+	width: 35%;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.biosPic {
+	justify-content: flex-end;
+}
+
+.biosPic img {
+	width: 95%;
+	margin: 1rem;
+}
+
+}
+
+/* Mobile */
+@media only screen and (max-device-width: 640px) {
+
+html {
+	background-position-x: -50rem;
+}
+
+.bannerImg {
+	width: 100%;
+}
+
+.pullQuote {
+	width: 100%;
+	height: 100vh;
+	margin: auto;
+	flex-direction: column;
+	margin: auto;
+	margin-bottom: 4rem;
+	margin-top: -3rem;
+}
+
+.quoteImg {
+	margin: auto;
+	margin-bottom: 2rem;
+}
+
+.quoteImg img {
+	width: 90%;
+	margin: auto;
+	padding: 1rem 1rem .2rem 1rem;
+}
+
+.pullQuote h3 {
+	margin: auto;
+	text-align: center;
+	font-style: italic;
+	width: 60%;
+}
+
+.caption  {
+	text-align: center;
+	margin: .4rem;
+	font-size: .62rem;
+}
+
+/* descrption */
+.description {
+	flex-direction: column;
+		margin-bottom: 4rem;
+}
+
+.descriptionText {
+	flex-direction: column;
+	width: 90%;
+	margin: 1rem;
+}
+
+.descriptionImage {
+	flex-direction: column;
+}
+
+.descriptionImage img {
+	margin: 1rem;
+}
+
+.descriptionImage .caption {
+	font-size: .6rem;
+}
+
+.featuredVideo {
+	width: 90%;
+	margin-bottom: 4rem;
+}
+
+.videoWrapper {
+   position: relative;
+   width: 100%;
+   height: 0;
+   padding-bottom: 56.25%;
+   margin: auto;
+}
+.videoWrapper iframe {
+   position:absolute;
+
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+}
+
+/* bios */
+.bios {
+	flex-direction: column;
+	width: 100%;
+}
+
+.bios .right{
+	flex-direction: column;
+}
+
+.bios .left {
+	flex-direction: column;
+	margin: auto;
+	width: 80%;
+	font-size: 1.1rem;
+}
+
+.biosPic img {
+	width: 80%;
+	margin: auto;
+}
+
+}
