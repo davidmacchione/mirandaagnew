@@ -263,6 +263,7 @@ html {
 
 .pullQuote {
 	width: 100%;
+	height: 100vh;
 	margin: auto;
 	flex-direction: column;
 	margin: auto;
