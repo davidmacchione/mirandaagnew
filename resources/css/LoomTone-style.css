@@ -96,7 +96,7 @@ a:hover {
 
 .bios b {
 	color: lightgrey;
-	font-weight: 800 ;
+	font-weight: 800;
 }
 
 .bios .left {
@@ -170,6 +170,7 @@ footer {
 	padding: 2rem;
 	margin-bottom: 8rem;
 	justify-content: space-evenly;
+
 }
 
 .descriptionText {
@@ -186,10 +187,13 @@ footer {
 
 .descriptionText h3 {
 	font-size: 1.2rem ;
+
 }
 
 .descriptionText h4 {
-	font-size: 1rem;
+	font-size: 1.1rem;
+		font-family: Helvetica;
+	font-weight: 400;
 }
 
 .descriptionImage {
