@@ -113,13 +113,14 @@ footer {
 }
 
 .pullQuote {
-
+	height: 100vh;
 }
 
 .pullQuote img {
 	width: 90%;
 	margin: 1rem;
-	margin-bottom: .5rem;
+	margin-bottom: ;
+	margin-top: 11vh;
 	max-width: 600px;
 }
 
