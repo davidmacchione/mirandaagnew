@@ -74,7 +74,7 @@ a:hover {
 /* descrption */
 .description {
 	display: flex;
-	background-color: rgba(105, 105, 105, .8);
+	background-color: rgba(133, 149, 160, 1);
 	border-radius: 4px;
 	color: seashell;
 }
