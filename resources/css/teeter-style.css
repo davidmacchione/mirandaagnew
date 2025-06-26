@@ -14,7 +14,7 @@ html {
 	background-repeat: no-repeat;
 	background-color: rgba(157,129,130	);
 	color: ;
-	font-family: sans-serif;
+	font-family: Verdana;
 	background-blend-mode: lighten;
 	background-attachment: ;
 	background-size: ;
@@ -23,7 +23,7 @@ html {
 main {
 	display: flex;
 	flex-direction: column;
-	margin-top: 0;
+	margin-top: ;
 }
 
 a {
@@ -43,8 +43,7 @@ a:hover {
 
 .bannerImg h1 {
 	position: relative;
-	margin-right: 4rem;
-	margin-left: auto;
+
 	font-size: 2.5rem;
 	color: seashell;
 	/* make foreground */
@@ -151,6 +150,11 @@ main {
 
 .bannerImg {
 	
+}
+
+.bannerImg h1 {
+	margin-right: 6rem;
+	margin-left: auto;
 }
 
 .pullQuote {
@@ -320,6 +324,12 @@ html {
 	width: 100%;
 }
 
+.bannerImg h1 {
+	margin-left: auto;
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+}
+
 .pullQuote {
 	width: 100%;
 	height: 100vh;
@@ -332,7 +342,7 @@ html {
 
 .quoteImg {
 	margin: auto;
-	margin-bottom: 2rem;
+	margin-bottom: rem;
 }
 
 .quoteImg img {
@@ -355,7 +365,7 @@ html {
 
 .caption  {
 	text-align: center;
-	margin: .4rem;
+	margin-top: -1rem;
 	font-size: .62rem;
 }
 
