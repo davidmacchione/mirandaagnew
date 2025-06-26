@@ -24,9 +24,13 @@ header {
 	flex-direction: column;
 }
 
+main {
+
+}
+
 footer {
 	position: absolute;
-	bottom: 0;
+	bottom: -11rem;
 }
 
 /*Desktop*/
