@@ -1,9 +1,18 @@
+/* 
+color scheme
+pink 164	130	131	
+other pink 157,129,130	
+green 130	115	69	
+dark green 47	45	31	
+red 79,19,23	
+*/
+
 html {
 	background-image: url("");
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-color: rgba(121, 121, 121);
+	background-color: rgba(157,129,130	);
 	color: ;
 	font-family: sans-serif;
 	background-blend-mode: lighten;
@@ -37,6 +46,7 @@ a:hover {
 	margin-right: 4rem;
 	margin-left: auto;
 	font-size: 2.5rem;
+	color: seashell;
 	/* make foreground */
 } 
 
@@ -52,6 +62,7 @@ a:hover {
 .pullQuote {
 	display: flex;
 	margin: auto;
+	color: seashell;
 	flex-direction: row-reverse;
 	background-color: ;
 	margin-bottom: 8rem;
@@ -74,7 +85,7 @@ a:hover {
 /* descrption */
 .description {
 	display: flex;
-	background-color: rgba(133, 149, 160, 1);
+	background-color: rgba(79,19,23, .5);
 	border-radius: 4px;
 	color: seashell;
 }
@@ -124,6 +135,7 @@ footer {
 	display: flex;
 	margin: auto;
 	margin-top: 3rem;
+	color: seashell;
 }
 
 .copyright {
@@ -145,7 +157,7 @@ main {
 	height: 100vh;
 	width: 90%;
 	margin-top: ;
-	flex-direction: row;
+	flex-direction: row-reverse;
 }
 
 .quoteImg {
@@ -203,22 +215,22 @@ main {
 }
 
 .descriptionText h3 {
-	font-size: 1.2rem ;
+	font-size: 1.1rem ;
 
 }
 
 .descriptionText h4 {
-	font-size: 1.1rem;
+	font-size: 1rem;
 		font-family: Helvetica;
 	font-weight: 400;
 }
 
 .descriptionImage {
 	flex-direction: column;
-	width: 40%;
+	width: 60%;
 	margin: auto 1rem auto 1rem;
 	min-width: 400px;
-	max-width: 650px;
+	max-width: 750px;
 }
 
 .descriptionImage img {
