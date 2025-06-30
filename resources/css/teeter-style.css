@@ -355,8 +355,9 @@ html {
 	display: flex;
 	margin: auto;
 	width: 90%;
-	margin-bottom: 3rem;
-	margin-top: 1rem;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+
 }
 
 .pullQuote h3 {
