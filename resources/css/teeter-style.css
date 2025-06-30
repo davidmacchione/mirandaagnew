@@ -130,6 +130,7 @@ a:hover {
 	
 }
 
+
 footer {
 	display: flex;
 	margin: auto;
@@ -336,7 +337,7 @@ html {
 	margin: auto;
 	flex-direction: column;
 	margin: auto;
-	margin-bottom: 4rem;
+	margin-bottom: 0rem;
 	margin-top: -3rem;
 }
 
@@ -372,6 +373,7 @@ html {
 /* descrption */
 .description {
 	flex-direction: column;
+	padding-bottom: 1rem;
 	margin-bottom: 4rem;
 }
 
@@ -403,13 +405,13 @@ html {
 .videoWrapper {
 	display: flex;
    position: relative;
-   width: 100%;
+   width: 95%;
    height: 0;
    padding-bottom: 56.25%;
    margin: auto;
 }
 .videoWrapper iframe {
-   position:absolute;
+   position: absolute;
    margin: auto;
    left: 0;
    top: 0;
