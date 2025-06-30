@@ -333,7 +333,7 @@ html {
 
 .pullQuote {
 	width: 100%;
-	height: 100vh;
+	height: ;
 	margin: auto;
 	flex-direction: column;
 	margin: auto;
@@ -355,6 +355,8 @@ html {
 	display: flex;
 	margin: auto;
 	width: 90%;
+	margin-bottom: 3rem;
+	margin-top: 1rem;
 }
 
 .pullQuote h3 {
