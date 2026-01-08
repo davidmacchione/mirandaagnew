@@ -180,7 +180,7 @@ input[type=checkbox] {
 .videoPlayer {
 	display: flex;
 	flex-direction: column;
-		background: none;
+	background: none;
 }
 
 .videoText {

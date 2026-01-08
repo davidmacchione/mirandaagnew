@@ -14,7 +14,6 @@ html {
 main {
 	display: flex;
 	flex-direction: column;
-
 	margin-top: 0;
 }
 
@@ -48,17 +47,13 @@ a:hover {
 	font-weight: 400;
 }
 
-
-
-
 .pullQuote {
 	display: flex;
 	margin: auto;
 	flex-direction: row-reverse;
 	width: 80%;
 	background-color: ;
-
-		margin-bottom: 8rem;
+	margin-bottom: 8rem;
 }
 
 .quoteImg {
@@ -84,8 +79,12 @@ a:hover {
 }
 
 .featuredVideo {
+	display: flex;	
+}
+
+.videoWrapper {
 	display: flex;
-	
+	width: 100%;
 }
 
 /* bios */
@@ -161,7 +160,6 @@ footer {
 }
 
 
-
 /* descrption */
 .description {
 	flex-direction: row;
@@ -170,7 +168,6 @@ footer {
 	padding: 2rem;
 	margin-bottom: 8rem;
 	justify-content: space-evenly;
-
 }
 
 .descriptionText {
@@ -178,7 +175,6 @@ footer {
 	width: auto;
 	max-width: 1000px;
 	margin: auto 1rem auto 1rem;
-
 }
 
 .descriptionText h3, h4 {
@@ -187,7 +183,6 @@ footer {
 
 .descriptionText h3 {
 	font-size: 1.2rem ;
-
 }
 
 .descriptionText h4 {
@@ -207,7 +202,6 @@ footer {
 .descriptionImage img {
 	width: 100%;
 	margin: 1rem auto .5rem auto;
-
 }
 
 .descriptionImage .caption {
@@ -217,20 +211,19 @@ footer {
 }
 
 .featuredVideo {
-	height: 400px;
+	height: ;
+ 	width: 60%;
 	margin: auto;
 	margin-bottom: 8rem;
 }
 
 .videoWrapper {
    position: relative;
-   width: 100%;
-   height: 0;
    padding-bottom: 56.25%;
 }
+
 .videoWrapper iframe {
    position:absolute;
-   max-width: ;
    left: 0;
    top: 0;
    height: 100%;
@@ -243,7 +236,6 @@ footer {
 	width: 80%;
 	margin: auto;
 	justify-content: space-evenly;
-
 }
 
 .bios h5 {
@@ -325,7 +317,7 @@ html {
 /* descrption */
 .description {
 	flex-direction: column;
-		margin-bottom: 4rem;
+	margin-bottom: 4rem;
 }
 
 .descriptionText {
