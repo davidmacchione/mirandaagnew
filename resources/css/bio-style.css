@@ -30,6 +30,15 @@
 	text-decoration: none;
 }
 
+.bio a {
+	color: rgb(88, 69, 117);
+}
+
+.bio a:hover {
+	color: seashell;
+}
+
+
 /*Desktop*/
 @media only screen and (min-device-width:641px) {
 

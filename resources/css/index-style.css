@@ -77,6 +77,16 @@ main a {
 	margin-bottom: 0.8rem;
 }
 
+
+.about a {
+	color: rgb(88, 69, 117);
+}
+
+.about a:hover {
+	color: seashell;
+}
+
+
 #wjcm {
 	all: revert;
 	text-decoration: none;
