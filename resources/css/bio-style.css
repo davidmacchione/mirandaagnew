@@ -10,7 +10,7 @@
 }
 
 .bio h3 {
-	font-size: 3rem;
+	font-size: 2.2rem;
 }
 
 .bio p {
@@ -38,7 +38,6 @@
 	color: seashell;
 }
 
-
 /*Desktop*/
 @media only screen and (min-device-width:641px) {
 
@@ -56,17 +55,24 @@
 	margin-top: 1rem;
 }
 
+#awardsImg {
+	width: 60%;
+	margin-bottom: .5rem;
+}
+
 .bioImages {
 	display: flex;
 	flex-direction: column;
-	width: 45%;
+	margin-top: 5rem;
+	width: 55%;
 	padding: 1rem;
 }
 
-.bio img {
+.bioImages img {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 10rem;
 	padding: 0.5rem;
 }
 
@@ -92,6 +98,11 @@ footer {
 
 .bio span {
 	margin-top: 2rem;
+}
+
+#awardsImg {
+	width: 60%;
+	margin-bottom: .5rem;
 }
 
 .bioImages {
